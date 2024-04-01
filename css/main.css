@@ -888,7 +888,13 @@ button .btn-primary{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  align-items: center;
+  align-content: center;
   
+}
+.fotofinal>img{
+    width: 100%;
+    height: auto;
 }
 .imagen_dress{
   display: flex;
@@ -1186,7 +1192,7 @@ footer{
   /* align-self: flex-end; */
   /* bottom: 0; */
    /* background-color: rgb(252, 190, 224); */
-   background-color: var(--theme-color);
+   background-color: #343a40;
    justify-content:center;
   align-items: center; 
   /* padding-right: 25px;  */
@@ -1260,6 +1266,7 @@ text-align: center;
 }
 
 
+
 @media (min-width:1200px){
   /*.inicio{
      background-image: url(/img/portadaCopia.jpg);
@@ -1324,8 +1331,8 @@ text-align: center;
   .flecha-continuar{
     margin-top: 100px;
   }
-  section .galeria {
-    width: 80%;
+  .galeria {
+    width: 100%;
 
     display: flex;
     flex-wrap: nowrap;
@@ -1333,7 +1340,17 @@ text-align: center;
     flex-direction: column;
     
     }
+    .galeria>img{
+      width: 80%;
+      height: auto;
+    
+    }
 
+
+    .fotofinal>img{
+      width: 80%;
+      height: auto;
+  }
   
   
 }
